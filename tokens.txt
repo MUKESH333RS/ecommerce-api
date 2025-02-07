@@ -1,0 +1,37 @@
+JWT_TOKEN - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE3Mzg3MzMxNjMsImV4cCI6MTczODczNjc2M30.kSBV8YDCDSJVcukNDgVzrqIB6KBI4fNeOsQYN4EGI4o
+
+<!-- POST -->
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzM4ODI0MTE4LCJleHAiOjE3Mzg4Mjc3MTh9.VEOja3dS_6x_pv3gz2jLgVZ4M7V_q66vVOd3udW4XOw
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE3Mzg3MzMxNjMsImV4cCI6MTczODczNjc2M30.kSBV8YDCDSJVcukNDgVzrqIB6KBI4fNeOsQYN4EGI4o
+
+{
+    "message": "Login successful",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE3Mzg3MzM4NTMsImV4cCI6MTczODczNzQ1M30.DsjcV57AVHAbQqb4zk-GfKbQ0fsMfcZg5csm0FTc_Ic"
+}
+
+<!-- GET -->
+
+<!-- user -->
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzM4OTEzMTQzLCJleHAiOjE3Mzg5MTY3NDN9.Ijg53W_L2IrpTZeyEgmwCmf-m5qnr5MMzdZsDbwyJ4c
+
+<!-- admin -->
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Mzg5MTQ3MTUsImV4cCI6MTczODkxODMxNX0.zjQaJbBq4b_IU3Rh6Lwd8uh8-oh6VSyHh2T6Pf6zMTA
+
+<!-- vendor -->
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImVtYWlsIjoidmVuZG9yQGV4YW1wbGUuY29tIiwicm9sZSI6InZlbmRvciIsImlhdCI6MTczODkxMzY0OSwiZXhwIjoxNzM4OTE3MjQ5fQ.Tckfbn2xTHVMhkiYRuxgf80dvMgZ-Fy9FqsgpKw5-r4
+
+<!-- staff -->
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImVtYWlsIjoic3RhZmZAZXhhbXBsZS5jb20iLCJyb2xlIjoic3RhZmYiLCJpYXQiOjE3Mzg5MTM1NTcsImV4cCI6MTczODkxNzE1N30.tTf9J1OQkifJgnLuoY_tuKojWgducWXh5-PDzsXPpLo
+
+{
+    "message": "Access granted",
+    "user": {
+        "email": "user@example.com",
+        "iat": 1738733853,
+        "exp": 1738737453
+    }
+}
+
+<!-- ____________________________________________________________________________ -->
+
