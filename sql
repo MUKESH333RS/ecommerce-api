@@ -1,3 +1,4 @@
+
 -- user table
 
 CREATE TABLE users (

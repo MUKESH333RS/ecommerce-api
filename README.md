@@ -214,4 +214,3 @@ Future Enhancements
 Conclusion
     This E-commerce API project is a robust foundation for an e-commerce platform with role-based access control, user authentication, and full CRUD operations for products. It’s built with Node.js, Express, and PostgreSQL, and is designed to be extended with additional features as needed.
 
-
